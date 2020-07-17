@@ -20,7 +20,7 @@ function Experties() {
            {/* Headings */}
           <h1   className = 'first-heading'> MY RESUME</h1>
           <div  className = 'heading-style'></div>
-          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom:'36%'}}>My Awesome Story</h3>
+          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom: '6.5rem'}}>My Awesome Story</h3>
           <p
           // Paragraph
            style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative'
