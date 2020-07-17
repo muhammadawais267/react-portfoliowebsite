@@ -1,0 +1,30 @@
+#showcase-img{
+  background: url('../../assets/images/backgroung.jpg')no-repeat center center/cover;
+  height: 400px;
+  width: 100%;
+  
+}
+#showcase-img .showcase-content{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  
+}
+.showcase-projects{
+  background:'#FAEDC0';
+  height:'2px';
+  width:'40px'; 
+  position: "relative";
+  top:'20px';
+  right:"3.1rem";
+}
+.showcase-title{
+  background: #1F212D;
+  color: #fff;
+  font-size: 0.8rem;
+  border: none;
+}
+.showcase-title:hover{
+  background: none;
+  border: 1px dotted #fbc363;
+  color: none;
+}

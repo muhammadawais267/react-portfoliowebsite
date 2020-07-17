@@ -1,0 +1,55 @@
+.first-heading{
+  color:#0f0f0f;
+  font-size: 9rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.experties-projects{
+  margin:1rem;
+}
+
+.experties-section{
+  text-align:left;
+  position:relative;
+  top:-25%;
+  margin:2rem ;
+  left:30%
+}
+.experties-sections{
+  text-align:left;
+  position:relative;
+  top:-25%;
+  margin:2rem ;
+  left:30%;
+  background-color: rgb(27, 27, 27);
+  border-radius: 5px;
+  width: 70%;
+  height: 30%;
+  box-shadow: 2px rgb(27, 27, 27);
+  /* border: 2px solid; */
+  
+
+}
+.button-style{
+  background:#302f2f;
+  color:#ddd;
+  border:none;
+  border-radius:20px ;
+  padding :0.3rem 1rem;
+  margin-top:1rem;
+  margin-left: 1rem;
+}
+.button-style:hover{
+  background-color: #302f2f;
+  color: #ddd;
+}
+
+.heading-style{
+  background:#fbc363;
+  height:2px;
+  width:50px;
+ 
+   position: relative;
+   top:-27%;
+   left:65%;
+}

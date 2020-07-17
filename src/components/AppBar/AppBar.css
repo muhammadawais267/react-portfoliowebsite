@@ -1,0 +1,17 @@
+.navbar-1 {
+  background-color: #000 !important;
+  /* color: #ffffff !important; */
+  /* margin-right: 1rem; */
+}
+.navbar-style a {
+  color: #d8d5d5 !important;
+  margin-left: 2.5rem;
+  border-radius: 5px;
+}
+/* .navbar-style a:hover {
+  /* background: rgb(219, 176, 95); */
+/* color: rgb(248, 205, 126) !important; */
+/* } */
+.current-home {
+  background-color: rgb(221, 166, 64) !important;
+}
