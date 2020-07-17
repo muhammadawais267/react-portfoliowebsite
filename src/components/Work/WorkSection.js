@@ -3,10 +3,6 @@ import {
   Container,
   Row,
   Col,
-  Button,
-  Image,
-  
-  Card,
  
 } from 'react-bootstrap';
 import './WorkSection.css';

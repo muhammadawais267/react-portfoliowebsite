@@ -4,9 +4,7 @@ import {
   Row,
   Col,
   Button,
-  Image,
   
-  Card,
  
 } from 'react-bootstrap';
 import './Experties.css';
