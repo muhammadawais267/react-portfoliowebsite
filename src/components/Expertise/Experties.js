@@ -131,7 +131,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-117%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-43.7rem',left:"28%"}}></div>
         <div >
             <i
               className="far fa-circle"
@@ -151,7 +151,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-118.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-45rem',left:"28%"}}></div>
           
           
           </Col>
