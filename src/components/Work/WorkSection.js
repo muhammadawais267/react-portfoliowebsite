@@ -16,10 +16,10 @@ function WorkSection() {
            {/* Headings */}
           <h1   className = 'first-headings' >PROCESS </h1>
           <div  className = 'heading-style' style = {{left:'43rem',top:'-5.5rem'}}></div>
-          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom:'41%',right:'-15rem'}}>My Work Process</h3>
+          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom:'7rem',right:'-15rem'}}>My Work Process</h3>
            <p
           // Paragraph
-           style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative',bottom:'28%',left:'15rem'
+           style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative',bottom:'5rem',left:'15rem'
            ,color:'#fff'}}> Contrary to popular belief, Lorem Ipsum is not simply random
            
            Contrary to popular belief, <br/> Lorem Ipsum is not simply random
@@ -46,7 +46,7 @@ function WorkSection() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'69.3%',left:"88%"}}>
+                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'6.6rem',left:"88%"}}>
 
                 </div>
                 <div><i class="fab fa-audible fa-2x" style = {{
@@ -85,7 +85,7 @@ function WorkSection() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'69%',left:"24%"}}>
+                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'6.6rem',left:"24%"}}>
 
                 </div>
                 <div><i  class="fas fa-search-location fa-2x"  style = {{
@@ -122,7 +122,7 @@ function WorkSection() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'169%',left:"45%"}}>
+                style = {{background:'#302f2f',height:'1px',width:'220px', position: "relative",bottom:'16rem',left:"45%"}}>
 
                 </div>
                 <div>

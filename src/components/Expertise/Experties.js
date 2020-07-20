@@ -31,7 +31,7 @@ function Experties() {
           {/*Experties */}
           <Col md={6} sm={12} className='text-section'>
 
-            <div style = {{textAlign:'left',position:'relative',top:'-25%',margin:'1rem' ,left:'30%'}} >
+            <div style = {{textAlign:'left',position:'relative',top:'-16%',margin:'1rem' ,left:'30%'}} >
 
            <h1>Education</h1>
 
@@ -71,7 +71,7 @@ function Experties() {
 </p>
 </div>
 
-<div style = {{textAlign:'left',position:'relative',top:'-25%',margin:'1rem' ,left:'30%'}} >
+<div style = {{textAlign:'left',position:'relative',top:'-19%',margin:'1rem' ,left:'30%'}} >
 
 
 
@@ -101,7 +101,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-45rem'
+                top: '-43rem'
               
               }}
                
@@ -109,7 +109,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'200px',width:'1px', position: "relative",bottom:'111.8%',left:"28%"}}>
+                style = {{background:'#302f2f',height:'200px',width:'1px', position: "relative",bottom:'116%',left:"28%"}}>
 
                 </div>
                  <div >
@@ -123,7 +123,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-46rem'
+                top: '-43.5rem'
               
               }}
                
@@ -131,7 +131,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-112.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-117%',left:"28%"}}></div>
         <div >
             <i
               className="far fa-circle"
@@ -143,7 +143,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-47rem'
+                top: '-44rem'
               
               }}
                
@@ -151,7 +151,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-116.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-118.8%',left:"28%"}}></div>
           
           
           </Col>
@@ -176,7 +176,7 @@ function Experties() {
 </p>
 </div>
 {/* Experience */}
-<div style = {{textAlign:'left',position:'relative',top:'-2%',margin:'1rem' ,left:'30%'}} >
+<div style = {{textAlign:'left',position:'relative',top:'0.5rem',margin:'1rem' ,left:'30%'}} >
 
 
 
@@ -225,7 +225,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-35.5rem'
+                top: '-33.5rem'
               
               }}
                
@@ -234,7 +234,7 @@ function Experties() {
           </div>
           <div 
           // Icon
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-45.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-34rem',left:"28%"}}></div>
                  <div >
             <i
               className="far fa-circle"
@@ -246,7 +246,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-36.5rem'
+                top: '-34.5rem'
               
               }}
                
@@ -255,7 +255,7 @@ function Experties() {
           </div>
           {/* Icon */}
           <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-47.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-35rem',left:"28%"}}></div>
                  <div >
             <i
               className="far fa-circle"
@@ -267,7 +267,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-38rem'
+                top: '-35.5rem'
               
               }}
                
@@ -275,7 +275,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-49.8%',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-36rem',left:"28%"}}></div>
            
           </Col>
         </Row>
