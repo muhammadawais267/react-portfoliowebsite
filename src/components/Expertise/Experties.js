@@ -109,7 +109,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'200px',width:'1px', position: "relative",bottom:'116%',left:"28%"}}>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",bottom:'43.5rem',left:"28%"}}>
 
                 </div>
                  <div >
@@ -123,7 +123,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-43.5rem'
+                top: '-43.6rem'
               
               }}
                
@@ -195,7 +195,7 @@ function Experties() {
 </p>
 </div>
 {/* Experience */}
-<div style = {{textAlign:'left',position:'relative',top:'0%',margin:'1rem' ,left:'30%'}} >
+<div style = {{textAlign:'left',position:'relative',top:'3rem',margin:'1rem' ,left:'30%'}} >
 
 
 
@@ -246,7 +246,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-34.5rem'
+                top: '-34.3rem'
               
               }}
                
@@ -255,7 +255,7 @@ function Experties() {
           </div>
           {/* Icon */}
           <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-35rem',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-34.4rem',left:"28%"}}></div>
                  <div >
             <i
               className="far fa-circle"
@@ -267,7 +267,7 @@ function Experties() {
                borderRadius:'50%',
                 
                 left: '9rem',
-                top: '-35.5rem'
+                top: '-34.6rem'
               
               }}
                
@@ -275,7 +275,7 @@ function Experties() {
             ></i>
           </div>
           <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-36rem',left:"28%"}}></div>
+                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-35rem',left:"28%"}}></div>
            
           </Col>
         </Row>
