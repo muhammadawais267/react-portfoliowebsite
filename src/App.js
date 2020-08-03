@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Showcase from './components/showcase/Showcase'
 import Experties from './components/Expertise/Experties'
 import WorkSection from './components/Work/WorkSection'
+import Services from './components/Services/Services'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       < Showcase/>
       < Experties/>
       <WorkSection/>
+      <Services/>
     </div>
   );
 }
