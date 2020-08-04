@@ -5,5 +5,31 @@
   position: relative;
   top: -6rem;
   left: -11rem;
+  /* color:transparent */
+}
+
+#services-img{
+  background: url('../../assets/images/back.jpg') no-repeat center center/cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  bottom: 10rem;
+}
+#services-img .back-img{
+  background-color: rgba(0, 0,0, 0.9);
+  height: 100%;
+}
+.services-btn{
+  border: none;
+  background: #fbc363;
+  color: #1F212D;
+  position: relative;
+  right: -35.5rem;
+  top: 1rem;
+
+}
+.services-btn:hover{
+  background: #1F212D;
+  color: #fbc363;
   
 }

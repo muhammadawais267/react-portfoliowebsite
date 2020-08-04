@@ -3,6 +3,9 @@ import {
   Container,
   Row,
   Col,
+  Card,
+  Button,
+
   
   
  
@@ -28,7 +31,7 @@ function Services() {
                 text</p>
            
            </div>
-          <Col  md={6} sm={12}>
+          <Col  md={6} sm={12} style={{position:'relative',left:'1.5rem'}}>
           
                 <div>
                
@@ -67,7 +70,7 @@ function Services() {
                 </div>
                 </div>
           </Col>
-          <Col  md={6} sm={12}>
+          <Col  md={6} sm={12}  style={{position:'relative',left:'1.5rem'}}>
          
           {/* <i class="fab fa-wordpress-simple"></i> */}
                 <div className="text-shadow"><i  class="fab fa-wordpress-simple fa-2x"  style = {{
@@ -108,7 +111,7 @@ function Services() {
                 </div>
                 </div>
           </Col>
-          <Col  md={6} sm={12}>
+          <Col  md={6} sm={12}  style={{position:'relative',left:'1.5rem'}}>
           <div style={{
                 width: '3rem',
                 height:'3rem',
@@ -165,7 +168,7 @@ function Services() {
                 text</p>
            
            </div>
-          <Col  md={6} sm={12} style = {{position:'relative',right:'30rem',bottom:'-10rem'}}>
+          <Col  md={6} sm={12} style = {{position:'relative',right:'28rem',bottom:'-10rem'}}>
           
                 <div>
                 {/* <i class="fas fa-layer-group"></i> */}
@@ -204,7 +207,7 @@ function Services() {
                 </div>
                 </div>
           </Col>
-          <Col  md={6} sm={12} style={{position:'relative' ,right:'-35rem',top:'-2rem'}}>
+          <Col  md={6} sm={12} style={{position:'relative' ,right:'-37rem',top:'-2rem'}}>
          
           {/* <i class="fab fa-wordpress-simple"></i> */}
           {/* <i class="fas fa-store-alt-slash"></i> */}
@@ -247,7 +250,7 @@ function Services() {
                 </div>
                 </div>
           </Col>
-          <Col  md={6} sm={12} style={{position :'relative' ,left:'-34rem',top:'14rem'}}>
+          <Col  md={6} sm={12} style={{position :'relative' ,left:'-32.5rem',top:'14rem'}}>
           <div style={{
                 width: '3rem',
                 height:'3rem',
@@ -287,7 +290,98 @@ function Services() {
                 </div>
                 </Col>
         </Row>
+
+        
       </Container>
+      <div id= 'services-img'>
+        <div className= 'back-img'>
+        <Row className='justify-content-md-center'>
+          <Col md={2} style = {{marginRight:'-14px'}}>
+            <Card 
+              style={{
+                width: '10rem',
+                height:'7rem',
+                backgroundColor: '#1F212D',
+                // color: '#FAEDC0',
+              textAlign:'center'
+                
+              }}
+            >
+              <Card.Body>
+              <i  style = {{color:'#FAEDC0',marginBottom:'0.5rem'}} class="fas fa-trophy fa-1x"></i>
+              <br/>
+              
+                <Card.Title  style = {{color:'#fbc363'}} >1040</Card.Title>
+                <Card.Text style={{color:'white',fontSize:'12px'}}>
+                  Awards
+                </Card.Text>
+              </Card.Body>
+              
+            </Card>
+          </Col>
+          <Col md={2} style = {{marginRight:'-14px'}}>
+            <Card
+              style={{
+                width: '10rem',
+                height:'7rem',
+                backgroundColor: '#1F212D',
+                // color: '#FAEDC0',
+              }}
+            >
+              <Card.Body  style= {{textAlign:'center'}}>
+              <i style = {{color:'#FAEDC0',marginBottom:'0.5rem'}} class="fas fa-rocket"></i>
+                <Card.Title  style = {{color:'#fbc363'}}>500</Card.Title>
+                <Card.Text  style={{color:'white' ,fontSize:'12px'}}>
+                  Finished Project
+                </Card.Text>
+              </Card.Body>
+              
+            </Card>
+          </Col>
+          <Col md={2} style = {{marginRight:'-14px'}}>
+            <Card
+              style={{
+                width: '10rem',
+                height:'7rem',
+                backgroundColor: '#1F212D',
+                // color: '#FAEDC0',
+              }}
+            >
+              <Card.Body  style= {{textAlign:'center'}}>
+              <i style = {{color:'#FAEDC0',marginBottom:'0.5rem'}} class="fas fa-snowman"></i>
+                <Card.Title style = {{color:'#fbc363'}} >168</Card.Title>
+                <Card.Text style={{color:'white',fontSize:'12px'}}>
+                 Happy Customer
+                </Card.Text>
+              </Card.Body>
+              
+            </Card>
+          </Col>
+          <Col md={2} style = {{marginRight:'-14px'}}>
+            <Card
+              style={{
+                width: '10rem',
+                height:'7rem',
+                backgroundColor: '#1F212D',
+                // color: '#FAEDC0',
+              }}
+            >
+              <Card.Body  style= {{textAlign:'center'}}>
+              <i style= {{color:'#FAEDC0',marginBottom:'0.5rem'}} class="fas fa-mug-hot"></i>
+                <Card.Title style = {{color:'#fbc363'}} >222</Card.Title>
+                <Card.Text style={{color:'white',fontSize:'12px'}}>
+                  Working Hours
+                </Card.Text>
+              </Card.Body>
+              
+            </Card>
+          </Col>
+        </Row>
+        <h4 style={{color:'#ddd',textAlign:'center',marginTop:'2rem'}}>Let's Work Togather On Your Next Project </h4>
+        <Button className='services-btn'>HIRE ME </Button>
+        </div>
+        </div>
+      
       
     </div>
   )
