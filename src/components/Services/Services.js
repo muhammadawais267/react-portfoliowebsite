@@ -296,7 +296,7 @@ function Services() {
       <div id= 'services-img'>
         <div className= 'back-img'>
         <Row className='justify-content-md-center'>
-          <Col md={2} style = {{marginRight:'-14px'}}>
+          <Col md={2} style = {{marginRight:'-2rem'}}>
             <Card 
               style={{
                 width: '10rem',
@@ -319,7 +319,7 @@ function Services() {
               
             </Card>
           </Col>
-          <Col md={2} style = {{marginRight:'-14px'}}>
+          <Col md={2} style = {{marginRight:'-2rem'}}>
             <Card
               style={{
                 width: '10rem',
@@ -338,7 +338,7 @@ function Services() {
               
             </Card>
           </Col>
-          <Col md={2} style = {{marginRight:'-14px'}}>
+          <Col md={2} style = {{marginRight:'-2rem'}}>
             <Card
               style={{
                 width: '10rem',
@@ -357,7 +357,7 @@ function Services() {
               
             </Card>
           </Col>
-          <Col md={2} style = {{marginRight:'-14px'}}>
+          <Col md={2} style = {{marginRight:'-2rem'}}>
             <Card
               style={{
                 width: '10rem',
