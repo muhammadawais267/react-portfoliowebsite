@@ -19,9 +19,9 @@ function Services() {
         <Row>
         <div className= 'experties-projects' >
            {/* Headings */}
-          <h1   className = 'first-headings' >Services </h1>
-          <div  className = 'heading-style' style = {{left:'41rem',top:'-4.3rem'}}></div>
-          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom:'6rem',right:'-15rem'}}>Technical Services</h3>
+          <h1   className = 'first-headings' >SERVICES </h1>
+          <div  className = 'heading-style' style = {{left:'43.1rem',top:'-5.3rem'}}></div>
+          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom:'7rem',right:'-14rem'}}>Technical Services</h3>
            <p
           // Paragraph
            style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative',bottom:'5rem',left:'15rem'

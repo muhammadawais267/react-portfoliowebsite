@@ -1,0 +1,30 @@
+.project{
+  font-size: 9rem;
+  position: relative;
+  left: 13rem;
+  color:#131313;
+  bottom: 9rem;
+}
+.phone-img{
+  position: relative;
+  width: 8rem;
+ height: 6rem;
+  left: 10rem;
+  top: -12rem;
+}
+.black-img{
+  position: relative;
+  width:30rem;
+  max-height: 15rem;
+  right: 16rem;
+  top: -16rem;
+}
+.laptop-img{
+ width: 8rem;
+  height:  6rem;
+  position: relative;
+  top: -31rem;
+  left: 51rem;
+}
+
+
