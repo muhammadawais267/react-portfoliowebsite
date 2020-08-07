@@ -9,6 +9,7 @@ import Experties from './components/Expertise/Experties'
 import WorkSection from './components/Work/WorkSection'
 import Services from './components/Services/Services'
 import Project from './components/Projects/Project'
+import Skills from './components/Skills/Skills'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <WorkSection/>
       <Services/>
       <Project/>
+      <Skills/>
     </div>
   );
 }
