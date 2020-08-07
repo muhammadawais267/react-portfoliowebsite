@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Container, Row, Col, Button, Image } from 'react-bootstrap';
+import { Container, Row, Col, Button} from 'react-bootstrap';
 import './Skills.css';
 
 function Skills() {
