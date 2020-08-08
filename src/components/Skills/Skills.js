@@ -1,30 +1,20 @@
 import React,{useState} from 'react'
-import { Container, Row, Col, Button} from 'react-bootstrap';
+import { Container, Row, Col, Button,Carousel,Image} from 'react-bootstrap';
 import './Skills.css';
+import girl from '../../assets/images/girl.png';
+import gemail from '../../assets/images/gemail.png';
+import femail from '../../assets/images/femail.png';
 
 function Skills() {
-  // const [design, setDesign] = useState(true);
-  // const [web, setWeb] = useState(false);
-  // const [language, setLanguage] = useState(false);
-
-  // const showDesign = () => {
-  //   setDesign(true);
-  //   setWeb(false);
-  //   setLanguage(false)
-  // }
-  // const showWeb = () => {
-  //   setDesign(false);
-  //   setWeb(true);
-  //   setLanguage(false)
-  // }
-  // const showLanguge = () => {
-  //   setDesign(false);
-  //   setWeb(false);
-  //   setLanguage(true)
-  // }
+ 
   const [design, setDesign] = useState(true);
   const [web , setWeb] = useState(false);
   const [language, setLanguage] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
   const showDesign = () =>{
     setDesign(true);
@@ -43,7 +33,7 @@ function Skills() {
   }
 
   return (
-    <div style = {{background:'#040404',height:'600px'}}>
+    <div style = {{background:'#040404' , height:'500px'}}>
       <Container >
         <Row className="justify-content-md-center">
         <div className= 'experties-projects' >
@@ -172,6 +162,74 @@ function Skills() {
            </Col>
            <Col md={6}></Col>
         </Row>
+
+          
+        
+        
+        
+        <Row className="justify-content-md-center back-color" >
+        <div className= 'experties-projects' >
+           {/* Headings */}
+          <h1 style = {{left:"0",position:'relative',bottom:'1.5rem'}}   className = 'project'  >FEEDBACK</h1>
+          <div style={{    position: 'relative', top: '-8rem'}}>
+          <div  className = 'heading-style' style = {{top:'1.7rem',left:"69%"}}></div>
+          <h3 className = 'text-background' style = {{textAlign:'center'}}>Clients Testimonials</h3>
+           <p
+          // Paragraph
+           style = {{fontSize:'0.7rem', textAlign:'center',color:'#fff',marginTop:'2rem'}}> 
+           Contrary to popular belief, Lorem Ipsum is not simply random
+           
+           Contrary to popular belief, <br/> Lorem Ipsum is not simply random
+                text</p>
+           </div>
+           </div>
+        </Row>
+        <Row style={{background:'#010101',height:'300px',width:'800px',position:'relative',bottom:'5rem',left:'12rem',boxShadow:'1px 1px 30px #444'}} >
+          <Col md= {12}>
+
+          <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item  style={{height:"300px"}}>
+    <div className="width-100">
+        
+        <Image style={{backgroundColor:'#fbc363 '}} src={girl} roundedCircle width="80px" height="80px"  />
+        </div>
+        <Carousel.Caption>
+        <i class="fas fa-quote-right"></i>
+          <p style={{fontSize:'14px',fontStyle:'italic',fontWeight:'lighter',lineHeight:'1.7rem'}}>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5  className='girls-name'>Isabella</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item  style={{height:"300px"}}>
+      <div className="width-100">
+        
+        <Image style={{backgroundColor:'#fbc363 '}} src={femail} roundedCircle width="80px" height="80px" />
+        </div>
+
+        <Carousel.Caption>
+        <i class="fas fa-quote-right"></i>
+          <p style={{fontSize:'14px',fontStyle:'italic',fontWeight:'lighter',lineHeight:'1.7rem'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. .Praesent commodo cursus magna, vel scelerisque nisl consectetur.Praesent commodo cursus magna, vel scelerisque nisl consectetur. .Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5 className='girls-name'>Charlotte</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item style={{height:"300px"}}>
+      <div className="width-100">
+        
+        <Image style={{backgroundColor:'#fbc363 '}} src={gemail} roundedCircle width="80px" height="80px"  />
+        </div>
+
+        <Carousel.Caption>
+        <i class="fas fa-quote-right"></i>
+          <p style={{fontSize:'14px',fontStyle:'italic',fontWeight:'lighter',lineHeight:'1.7rem'}}>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur.Praesent commodo cursus magna, vel scelerisque nisl consectetur.Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+          <h5  className='girls-name'>Ava</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+          </Col>
+        </Row>
+
+       
       </Container>
     </div>
   )

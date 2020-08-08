@@ -10,6 +10,7 @@ import WorkSection from './components/Work/WorkSection'
 import Services from './components/Services/Services'
 import Project from './components/Projects/Project'
 import Skills from './components/Skills/Skills'
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Services/>
       <Project/>
       <Skills/>
+      <Contact />
     </div>
   );
 }

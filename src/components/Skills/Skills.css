@@ -83,3 +83,14 @@
   position: sticky;
   
 }
+
+.width-100{
+  width: 100% !important;
+  text-align: center;
+  /* margin-bottom:15%; */
+padding-top: 12px;  
+
+}
+.girls-name{
+  color: #fbc363;
+}
