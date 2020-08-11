@@ -9,6 +9,14 @@
   left:10rem ;
 
 }
+.contact-bg {
+  /* background: url('../../assets/images/cloud.jpg') no-repeat center center/cover; */
+  /* width: 200px; */
+  /* height: 200px; */
+  background-image: radial-gradient( rgb(136, 134, 134), #000);
+  border-radius: 30px;
+
+}
 
 .submit-btn{
   background: #fbc363;
@@ -35,7 +43,7 @@
   background: rgb(20, 20, 20);
   height: 100px;
   position: relative;
-  top: -4rem;
+  /* top: -4rem; */
 }
 .social-icons i{
   margin: 1.5rem;
@@ -46,3 +54,11 @@
   background: rgba(0, 0, 0, 0.4);
   height: 100%;
 } */
+
+
+@media only screen and (max-width:992px) and (min-width:769){
+  .cloud-img{
+    height: 250px;
+    width: 200px;
+  }
+}

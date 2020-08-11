@@ -1,30 +1,45 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Container, Row, Col, Button,Form} from 'react-bootstrap';
 import './Contact.css';
+import AOS from 'aos';
+
 
 function Contact() {
+  useEffect(()=>{
+AOS.init({
+  offset: 200,
+  duration: 1000,
+  easing: 'ease-in-sine',
+  delay: 200,
+});
+AOS.refresh()
+  })
   return (
-    <div  style={{backgroundColor:'#000000 ', height :'1100px', position:'relative' , top :'45rem'}}>
+    <div  style={{backgroundColor:'#000000 ', position:'relative' }}>
       <Container>
       <Row  className="justify-content-md-center">
-      <div className= 'experties-projects' >
+     
+            <Col md={12} sm={12} xs={12}  data-aos="fade-up">
+        <div className= 'experties-projects' >
            {/* Headings */}
-          <h1 style = {{left:"0",position:'relative',bottom:'1.5rem'}}   className = 'project'  >CONTACT</h1>
-          <div style={{    position: 'relative', top: '-8rem'}}>
-          <div  className = 'heading-style' style = {{top:'1.7rem',left:"68%"}}></div>
-          <h3 className = 'text-background' style = {{textAlign:'center'}}>Contact With Me</h3>
+          <h1   className = 'section-title' >CONTACT </h1>
+          {/* <div  className = 'heading-style' style = {{left:'43.1rem',top:'8rem'}}></div> */}
+          <h3 className = 'text-background secondary-text' >Contact With Me</h3>
+        
+
            <p
           // Paragraph
-           style = {{fontSize:'0.7rem', textAlign:'center',color:'#fff',marginTop:'2rem'}}> 
-           Contrary to popular belief, Lorem Ipsum is not simply random
+           style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative',bottom:'5rem'
+           ,color:'#fff'}}> Contrary to popular belief, Lorem Ipsum is not simply random
            
            Contrary to popular belief, <br/> Lorem Ipsum is not simply random
                 text</p>
+           
            </div>
-           </div>
+           </Col>
       </Row>
-      <Row>
-        <Col md={6}>
+      <Row className="justify-content-md-center ">
+        <Col md={6} sm={12} xs={12} className = 'contact-bg'  data-aos="fade-right">
 
           <div className = 'contact-icons'>
           <h4>Get In Touch</h4>
@@ -54,13 +69,13 @@ function Contact() {
             </div>
           </div>
 
-      <div id='cloud-img'>
-        <div className='cloud-img'>
+     
+        {/* <div className='cloud-img'>
 
-        </div>
-      </div>
+        </div> */}
+     
         </Col>
-        <Col md={6}>
+        <Col md={6} sm={12} xs={12}  data-aos="fade-left">
 
 
     <Form className='form-style'>
@@ -92,13 +107,15 @@ function Contact() {
       </Row>
       </Container>
       <Row className =  'justify-content-md-center social-icons'>
-        <div >
+        <Col md={12} sm={12} xs={12} style={{textAlign:"center"}}>
+      
       <i class="fab fa-facebook-f fa-2x"></i>
       <i class="fab fa-twitter fa-2x"></i>
       <i class="fab fa-linkedin-in fa-2x"></i>
       <i class="fab fa-github fa-2x"></i>
       <i class="fab fa-skype fa-2x"></i>
-      </div>
+      </Col>
+      
       </Row>
 
     </div>

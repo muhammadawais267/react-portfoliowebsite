@@ -94,3 +94,14 @@ padding-top: 12px;
 .girls-name{
   color: #fbc363;
 }
+.slider-item{
+  height: 320px;
+}
+@media screen and (max-width:768px){
+  .slider-item{
+    height: 370px;
+  }
+}
+.carousel-indicators {
+  display: none;
+}

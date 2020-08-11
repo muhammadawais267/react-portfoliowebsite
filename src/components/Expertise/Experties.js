@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {
   Container,
   Row,
@@ -8,17 +8,32 @@ import {
  
 } from 'react-bootstrap';
 import './Experties.css';
+import AOS from 'aos'
 
 function Experties() {
+  useEffect(() =>{
+    AOS.init({
+      offset:200,
+      duration:1000,
+      easing: 'ease-in-sine',
+      delay: 200,
+
+
+    });
+    AOS.refresh()
+  })
   return (
-    <div style = {{height :'1100px'}}>
+    <div>
       <Container>
-        <Row className='justify-content-md-center'>
+        <Row className='justify-content-md-center' data-aos="fade-up">
+          <Col md={12} sm={12} xs={12}>
          <div className= 'experties-projects' >
            {/* Headings */}
-          <h1   className = 'first-heading'> MY RESUME</h1>
-          <div  className = 'heading-style'></div>
-          <h3 className = 'text-background' style = {{textAlign:'center',position:'relative',bottom: '6.5rem'}}>My Awesome Story</h3>
+          <h1   className = 'section-title'> MY RESUME</h1>
+         
+          <h3 className = 'text-background secondary-text'>My Awesome Story
+          <span className = 'heading-style'></span>
+          </h3>
           <p
           // Paragraph
            style = {{fontSize:'0.7rem', textAlign:'center' ,position:'relative'
@@ -28,18 +43,29 @@ function Experties() {
                 text. Contrary to popular.</p>
            
            </div>
-          {/*Experties */}
-          <Col md={6} sm={12} className='text-section'>
+           </Col>
+</Row>
 
-            <div style = {{textAlign:'left',position:'relative',top:'-16%',margin:'1rem' ,left:'30%'}} >
+<Row className='justify-content-md-center' >
+           
+          <Col md={6} sm={12} xs={12} className='education-col'  data-aos="fade-right">
 
            <h1>Education</h1>
+           <div className = 'education'>
+           <i
+              className="far fa-circle edu-pointer-1"
+             
+               
+              
+            ></i>
+            <div className="edu-1">
+
 
            <Button className= 'button-style'>2013 - 2014</Button>
 
-           <h5 style= {{color:'#ddd',marginTop:'0.5rem',marginLeft:'1rem'}}>Master Degree of design</h5>
+           <h5 style= {{color:'#ddd',marginTop:'0.5rem'}}>Master Degree of design</h5>
 
-           <p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>ABC Unversity Pakistan
+           <p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>ABC Unversity Pakistan
 
              <br/>
              <br/>
@@ -51,16 +77,42 @@ function Experties() {
            </div>
 
            {/* Experties */}
-           
-           <div className = 'experties-sections'  >
+           <i
+              className="far fa-circle edu-pointer-2"
+             
+               
+              
+            ></i>
+           <div className = "edu-2"  >
 
 
 
 <Button  className = 'button-style'>2013 - 2014</Button>
 
-<h5 style= {{color:'#fbc363',marginTop:'0.5rem',marginLeft:'1rem'}}>Bachelor Degree of C.A </h5>
+<h5 style= {{color:'#fbc363',marginTop:'0.5rem'}}>Bachelor Degree of C.A </h5>
 
-<p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>Nust University of Pakistan
+<p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>Nust University of Pakistan
+
+  <br/>
+  <br/>
+  Lorem Ipsum is not simply random
+     text. Contrary to<br/> popular.
+     Contrary to popular.
+
+</p>
+</div>
+  
+     <i className="far fa-circle edu-pointer-3"></i>
+
+  <div className="edu-3">
+
+
+
+      <Button className= 'button-style'>2014 - 2015</Button>
+
+      <h5 style= {{color:'#ddd',marginTop:'1rem'}}>Diploma in Computer</h5>
+
+      <p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>ABC Unversity Pakistan
 
   <br/>
   <br/>
@@ -71,101 +123,56 @@ function Experties() {
 </p>
 </div>
 
-<div style = {{textAlign:'left',position:'relative',top:'-19%',margin:'1rem' ,left:'30%'}} >
-
-
-
-<Button className= 'button-style'>2014 - 2015</Button>
-
-<h5 style= {{color:'#ddd',marginTop:'0.5rem',marginLeft:'1rem'}}>Diploma in Computer</h5>
-
-<p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>ABC Unversity Pakistan
-
-  <br/>
-  <br/>
-  Lorem Ipsum is not simply random
-     text. Contrary to<br/> popular.
-     Contrary to popular.
-
-</p>
 </div>
 
-           <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#302f2f',
-               background:'#302f2f',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-43rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",bottom:'43.5rem',left:"28%"}}>
-
-                </div>
-                 <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#fbc363',
-               background:'#fbc363',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-43.6rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-43.7rem',left:"28%"}}></div>
-        <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#302f2f',
-               background:'#302f2f',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-44rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-45rem',left:"28%"}}></div>
+          
           
           
           </Col>
-          <Col md={6}>
-            {/* Experience */}
-          <div style = {{textAlign:'left',position:'relative',top:'-5%',margin:'1rem' ,left:'30%'}} >
 
-<h1>Experience</h1>
+          <Col md={6} sm={12} xs={12} className="education-col"  data-aos="fade-left">
 
-<Button className= 'button-style'>2013 - 2014</Button>
+           <h1>Experience</h1>
+           <div className = 'experience'>
+           <i
+              className="far fa-circle exp-pointer-1"
+             
+               
+              
+            ></i>
+            <div className="exp-1">
 
-<h5 style= {{color:'#ddd',marginTop:'0.5rem',marginLeft:'1rem'}}>Behance </h5>
 
-<p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>Art & creative Director
+           <Button className= 'button-style'>2013 - 2014</Button>
+
+           <h5 style= {{color:'#ddd',marginTop:'0.5rem'}}>Behance</h5>
+
+           <p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>Art & Creative Director
+
+             <br/>
+             <br/>
+             Lorem Ipsum is not simply random
+                text. Contrary to<br/> popular.
+                Contrary to popular.
+
+           </p>
+           </div>
+
+           <i
+              className="far fa-circle exp-pointer-2"
+             
+               
+              
+            ></i>
+           <div className = "exp-2"  >
+
+
+
+<Button  className = 'button-style'>2013 - 2014</Button>
+
+<h5 style= {{color:'#fbc363',marginTop:'0.5rem'}}>Envato </h5>
+
+<p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>Senior Wordpress Developer
 
   <br/>
   <br/>
@@ -175,35 +182,18 @@ function Experties() {
 
 </p>
 </div>
-{/* Experience */}
-<div style = {{textAlign:'left',position:'relative',top:'0.5rem',margin:'1rem' ,left:'30%'}} >
+  
+     <i className="far fa-circle exp-pointer-3"></i>
+
+  <div className="exp-3">
 
 
 
-<Button className= 'button-style'>2013 - 2014</Button>
+      <Button className= 'button-style'>2014 - 2015</Button>
 
-<h5 style= {{color:'#ddd',marginTop:'0.5rem',marginLeft:'1rem'}}>Envato</h5>
+      <h5 style= {{color:'#ddd',marginTop:'1rem'}}>UI/UX Designer</h5>
 
-<p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>Senior Wordpress Developer
-
-  <br/>
-  <br/>
-  Lorem Ipsum is not simply random
-     text. Contrary to<br/> popular.
-     Contrary to popular.
-
-</p>
-</div>
-{/* Experience */}
-<div style = {{textAlign:'left',position:'relative',top:'3rem',margin:'1rem' ,left:'30%'}} >
-
-
-
-<Button className= 'button-style'>2013 - 2014</Button>
-
-<h5 style= {{color:'#ddd',marginTop:'0.5rem',marginLeft:'1rem'}}>UI/UX Designer</h5>
-
-<p style= {{color:'#ddd  ' ,fontSize:'0.7rem',marginLeft:'1rem'}}>Creative Market
+      <p style= {{color:'#ddd  ' ,fontSize:'0.7rem'}}>ABC Unversity Pakistan
 
   <br/>
   <br/>
@@ -213,71 +203,11 @@ function Experties() {
 
 </p>
 </div>
-{/* Icon */}
-          <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#302f2f',
-               background:'#302f2f',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-33.5rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          <div 
-          // Icon
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-34rem',left:"28%"}}></div>
-                 <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#302f2f',
-               background:'#302f2f',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-34.3rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          {/* Icon */}
-          <div 
-                style = {{background:'#302f2f',height:'220px',width:'1px', position: "relative",top:'-34.4rem',left:"28%"}}></div>
-                 <div >
-            <i
-              className="far fa-circle"
-              style={{
-                width: '15px',
-                position: 'relative',
-               color:'#302f2f',
-               background:'#302f2f',
-               borderRadius:'50%',
-                
-                left: '9rem',
-                top: '-34.6rem'
-              
-              }}
-               
-              
-            ></i>
-          </div>
-          <div 
-                style = {{background:'#302f2f',height:'160px',width:'1px', position: "relative",top:'-35rem',left:"28%"}}></div>
-           
-          </Col>
+
+</div>
+</Col>
+
+         
         </Row>
        
       </Container>

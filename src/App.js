@@ -11,21 +11,22 @@ import Services from './components/Services/Services'
 import Project from './components/Projects/Project'
 import Skills from './components/Skills/Skills'
 import Contact from './components/Contact/Contact'
+import "aos/dist/aos.css"
 
 function App() {
   return (
-    <div>
+    <>
       {/* <AppBar /> */}
       <Hero />
       <About />
-      < Showcase/>
-      < Experties/>
-      <WorkSection/>
-      <Services/>
-      <Project/>
-      <Skills/>
+      <Showcase />
+      <Experties />
+      <WorkSection />
+      <Services />
+      <Project />
+      <Skills />
       <Contact />
-    </div>
+    </>
   );
 }
 

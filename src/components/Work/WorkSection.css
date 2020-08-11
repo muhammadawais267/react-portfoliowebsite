@@ -5,3 +5,47 @@
   color:#131313;
   
 }
+.dev-process {
+  border-top: 1px solid rgb(69, 70, 69);
+  padding-top: 1em;
+  position: relative;
+}
+.dev-process-1,
+.dev-process-2,
+.dev-process-3,
+.dev-process-4 {
+  width: 15px;
+  position: absolute;
+ color:#302f2f;
+ background:#302f2f;
+ border-radius:50%;
+ top: -1.5rem;
+}
+.dev-process-1{
+  left: 5.9rem;
+  
+}
+.dev-process-2{
+  left: 5.8rem;
+  
+}
+.dev-process-3{
+  color:#fbc363;
+  background:#fbc363;
+  left: 6em;
+
+}
+.dev-process-4{
+  left: 6.1em;
+}
+@media screen and (max-width:768px){
+  .dev-process{
+    border: none;
+  }
+  .dev-process-1,
+  .dev-process-2,
+  .dev-process-3,
+  .dev-process-4 {
+    display: none;
+  }
+}
